@@ -1,0 +1,4 @@
+2021-04-23 08:55:49.091 [http-nio-8090-exec-2] ERROR com.ling.handler.exception.GlobalException - org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-23 09:06:30.425 [http-nio-8090-exec-3] ERROR com.ling.handler.exception.GlobalException - org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported
+2021-04-23 13:46:04.421 [http-nio-8090-exec-3] ERROR com.ling.handler.exception.GlobalException - org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2021-04-23 23:26:00.871 [http-nio-8090-exec-1] ERROR com.ling.handler.exception.GlobalException - org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [org.springframework.data.jpa.repository.query.AbstractJpaQuery$TupleConverter$TupleBackedMap] to type [com.ling.vo.UsersVo]

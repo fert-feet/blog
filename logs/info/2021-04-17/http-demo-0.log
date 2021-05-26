@@ -1,0 +1,719 @@
+2021-04-17 12:37:04.677 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 5032 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 12:37:04.680 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 12:37:04.732 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 12:37:04.733 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 12:37:06.683 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 12:37:06.757 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2021-04-17 12:37:07.641 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 12:37:07.650 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 12:37:07.650 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 12:37:07.651 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 12:37:07.653 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 12:37:07.653 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 12:37:07.654 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 12:37:07.848 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 12:37:07.975 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 12:37:07.975 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3240 ms
+2021-04-17 12:37:08.195 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 12:37:08.249 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 12:37:08.387 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 12:37:08.487 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 12:37:08.912 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 12:37:08.930 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 12:37:09.601 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 12:37:09.611 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 12:37:10.057 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 12:37:10.417 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@477e916, org.springframework.security.web.context.SecurityContextPersistenceFilter@536aaabc, org.springframework.security.web.header.HeaderWriterFilter@4a4c4767, org.springframework.security.web.authentication.logout.LogoutFilter@3fb18325, com.ling.auth.MyUsernamePasswordAuthenticationFilter@3cb1fcee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e66eb28, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@a8e1ef8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ceaa0f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fbefd17, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59b73ffb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d12989e, org.springframework.security.web.session.SessionManagementFilter@1ad445e, org.springframework.security.web.access.ExceptionTranslationFilter@43e57f45, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27f50114]
+2021-04-17 12:37:10.440 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 12:37:10.523 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 12:37:10.688 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 12:37:10.712 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 12:37:10.713 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 12:37:10.729 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 12:37:10.758 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 12:37:10.779 [INFO ] com.ling.LingApplication - Started LingApplication in 6.864 seconds (JVM running for 7.88)
+2021-04-17 12:43:15.561 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 13:37:54.152 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 18252 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 13:37:54.156 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 13:37:54.209 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 13:37:54.209 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 13:37:55.178 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 13:37:55.246 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2021-04-17 13:37:55.846 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 13:37:55.854 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:37:55.854 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 13:37:55.854 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 13:37:55.856 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 13:37:55.858 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 13:37:55.858 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 13:37:55.861 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 13:37:55.944 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 13:37:55.945 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1735 ms
+2021-04-17 13:37:56.173 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 13:37:56.218 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 13:37:56.331 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 13:37:56.428 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 13:37:56.738 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 13:37:56.751 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 13:37:57.385 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 13:37:57.394 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 13:37:57.849 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 13:37:58.151 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77e3caa3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a258967, org.springframework.security.web.header.HeaderWriterFilter@1c489f7b, org.springframework.security.web.authentication.logout.LogoutFilter@684f96fd, com.ling.auth.MyUsernamePasswordAuthenticationFilter@34ab4136, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1148efc8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fb18325, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55b21a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c3832af, org.springframework.security.web.session.SessionManagementFilter@4fb4c9ea, org.springframework.security.web.access.ExceptionTranslationFilter@64910b1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1583cdba]
+2021-04-17 13:37:58.173 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 13:37:58.253 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 13:37:58.414 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:37:58.448 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 13:37:58.449 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 13:37:58.465 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 13:37:58.502 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 13:37:58.525 [INFO ] com.ling.LingApplication - Started LingApplication in 5.083 seconds (JVM running for 6.065)
+2021-04-17 13:38:04.178 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 13:40:30.064 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 16688 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 13:40:30.067 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 13:40:30.125 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 13:40:30.126 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 13:40:30.950 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 13:40:31.007 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2021-04-17 13:40:31.574 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 13:40:31.581 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:40:31.582 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 13:40:31.586 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 13:40:31.589 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 13:40:31.589 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 13:40:31.589 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 13:40:31.592 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 13:40:31.673 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 13:40:31.673 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1546 ms
+2021-04-17 13:40:31.838 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 13:40:31.873 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 13:40:31.971 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 13:40:32.040 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 13:40:32.305 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 13:40:32.316 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 13:40:32.842 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 13:40:32.851 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 13:40:33.221 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 13:40:33.504 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d3d9a94, org.springframework.security.web.context.SecurityContextPersistenceFilter@62cc0d3d, org.springframework.security.web.header.HeaderWriterFilter@4150ac35, org.springframework.security.web.authentication.logout.LogoutFilter@58cf4e49, com.ling.auth.MyUsernamePasswordAuthenticationFilter@74871be, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50a9a085, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6db84c27, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49c4e803, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@da7eba4, org.springframework.security.web.session.SessionManagementFilter@5187d404, org.springframework.security.web.access.ExceptionTranslationFilter@55b21a3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fe35b32]
+2021-04-17 13:40:33.523 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 13:40:33.608 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 13:40:33.741 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:40:33.769 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 13:40:33.770 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 13:40:33.784 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 13:40:33.811 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 13:40:33.828 [INFO ] com.ling.LingApplication - Started LingApplication in 4.376 seconds (JVM running for 5.052)
+2021-04-17 13:40:38.097 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 13:41:45.325 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 16016 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 13:41:45.329 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 13:41:45.376 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 13:41:45.377 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 13:41:46.191 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 13:41:46.249 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2021-04-17 13:41:46.808 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 13:41:46.816 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:41:46.817 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 13:41:46.817 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 13:41:46.819 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 13:41:46.819 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 13:41:46.819 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 13:41:46.822 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 13:41:46.913 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 13:41:46.913 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1535 ms
+2021-04-17 13:41:47.088 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 13:41:47.123 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 13:41:47.217 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 13:41:47.287 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 13:41:47.555 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 13:41:47.565 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 13:41:48.121 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 13:41:48.129 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 13:41:48.479 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 13:41:48.756 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@355a8553, org.springframework.security.web.context.SecurityContextPersistenceFilter@4150ac35, org.springframework.security.web.header.HeaderWriterFilter@39567370, org.springframework.security.web.authentication.logout.LogoutFilter@2a5c341a, com.ling.auth.MyUsernamePasswordAuthenticationFilter@4b36c36b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2bb47b5e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5187d404, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1148efc8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7488844b, org.springframework.security.web.session.SessionManagementFilter@55b21a3, org.springframework.security.web.access.ExceptionTranslationFilter@52cb1647, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@86f5a10]
+2021-04-17 13:41:48.773 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 13:41:48.844 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 13:41:48.969 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:41:48.998 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 13:41:48.999 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 13:41:49.011 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 13:41:49.035 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 13:41:49.050 [INFO ] com.ling.LingApplication - Started LingApplication in 4.339 seconds (JVM running for 5.056)
+2021-04-17 13:41:52.915 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 13:55:06.610 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 13548 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 13:55:06.613 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 13:55:06.660 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 13:55:06.660 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 13:55:07.549 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 13:55:07.649 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2021-04-17 13:55:08.252 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 13:55:08.261 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:55:08.262 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 13:55:08.262 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 13:55:08.264 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 13:55:08.264 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 13:55:08.264 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 13:55:08.267 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 13:55:08.345 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 13:55:08.345 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1684 ms
+2021-04-17 13:55:08.534 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 13:55:08.571 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 13:55:08.678 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 13:55:08.756 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 13:55:09.041 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 13:55:09.052 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 13:55:09.571 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 13:55:09.578 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 13:55:09.936 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 13:55:10.232 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fe35b32, org.springframework.security.web.context.SecurityContextPersistenceFilter@39567370, org.springframework.security.web.header.HeaderWriterFilter@42f33773, org.springframework.security.web.authentication.logout.LogoutFilter@726ccf7a, com.ling.auth.MyUsernamePasswordAuthenticationFilter@4f3d1dbf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@370432c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55b21a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f2a26, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54f2ac27, org.springframework.security.web.session.SessionManagementFilter@52cb1647, org.springframework.security.web.access.ExceptionTranslationFilter@38de3932, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a9d7e51]
+2021-04-17 13:55:10.252 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 13:55:10.329 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 13:55:10.466 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 13:55:10.489 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 13:55:10.490 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 13:55:10.502 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 13:55:10.525 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 13:55:10.541 [INFO ] com.ling.LingApplication - Started LingApplication in 4.554 seconds (JVM running for 5.224)
+2021-04-17 13:55:41.224 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 15:36:10.836 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 2112 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 15:36:10.839 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 15:36:10.884 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 15:36:10.885 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 15:36:11.866 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 15:36:11.867 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 15:36:11.936 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2021-04-17 15:36:11.950 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 15:36:11.951 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 15:36:11.968 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 15:36:11.969 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 15:36:11.969 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 15:36:12.599 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 15:36:12.608 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 15:36:12.609 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 15:36:12.611 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 15:36:12.613 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 15:36:12.613 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 15:36:12.614 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 15:36:12.619 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 15:36:12.724 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 15:36:12.724 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1838 ms
+2021-04-17 15:36:12.924 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 15:36:12.959 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 15:36:13.057 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 15:36:13.149 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 15:36:13.427 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 15:36:13.438 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 15:36:14.008 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 15:36:14.016 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 15:36:14.572 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 15:36:14.877 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@266893e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@368592fc, org.springframework.security.web.header.HeaderWriterFilter@7836392a, org.springframework.security.web.authentication.logout.LogoutFilter@70b87bb6, com.ling.auth.MyUsernamePasswordAuthenticationFilter@30e93e1c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b33704d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57708c41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@610dde02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c2cfbe8, org.springframework.security.web.session.SessionManagementFilter@3516e029, org.springframework.security.web.access.ExceptionTranslationFilter@7ef558f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@186920b7]
+2021-04-17 15:36:14.897 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 15:36:14.976 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 15:36:15.165 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 15:36:15.188 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 15:36:15.189 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 15:36:15.202 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 15:36:15.228 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 15:36:15.246 [INFO ] com.ling.LingApplication - Started LingApplication in 5.036 seconds (JVM running for 5.832)
+2021-04-17 15:36:20.552 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 17:35:13.338 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 16316 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:35:13.342 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:35:13.400 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 17:35:13.401 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 17:35:14.306 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:35:14.307 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:35:14.402 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:35:14.421 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:35:14.423 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:35:14.438 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:35:14.440 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:35:14.441 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:35:15.123 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:35:15.131 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:35:15.131 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:35:15.131 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:35:15.133 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:35:15.133 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:35:15.133 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:35:15.136 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:35:15.215 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:35:15.215 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1813 ms
+2021-04-17 17:35:15.396 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:35:15.434 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 17:35:15.520 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 17:35:15.609 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 17:35:15.875 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 17:35:15.884 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:35:17.387 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 17:35:17.415 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 17:35:18.018 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 17:35:18.301 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6eb51625, org.springframework.security.web.context.SecurityContextPersistenceFilter@626ab72b, org.springframework.security.web.header.HeaderWriterFilter@2633a59c, org.springframework.security.web.authentication.logout.LogoutFilter@18328cf6, com.ling.auth.MyUsernamePasswordAuthenticationFilter@503487f7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5005a299, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54b24209, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@89821bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c37dcad, org.springframework.security.web.session.SessionManagementFilter@3d9462ad, org.springframework.security.web.access.ExceptionTranslationFilter@41154cb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a0a0436]
+2021-04-17 17:35:18.319 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 17:35:18.389 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 17:35:18.562 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:35:18.591 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 17:35:18.592 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 17:35:18.603 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 17:35:18.628 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 17:35:18.643 [INFO ] com.ling.LingApplication - Started LingApplication in 5.886 seconds (JVM running for 6.637)
+2021-04-17 17:37:08.338 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 11772 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:37:08.341 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:37:08.383 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 17:37:08.384 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 17:37:09.241 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:37:09.242 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:37:09.308 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:37:09.323 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:37:09.325 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:37:09.338 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:37:09.339 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:37:09.339 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:37:09.911 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:37:09.917 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:37:09.918 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:37:09.918 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:37:09.921 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:37:09.922 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:37:09.922 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:37:09.925 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:37:09.999 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:37:10.000 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1615 ms
+2021-04-17 17:37:10.202 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:37:10.238 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 17:37:10.341 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 17:37:10.427 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 17:37:10.679 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 17:37:10.689 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:37:12.449 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 17:37:12.479 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 17:37:13.011 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 17:37:13.317 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1af1932b, org.springframework.security.web.context.SecurityContextPersistenceFilter@312fe469, org.springframework.security.web.header.HeaderWriterFilter@5ffc1c3, org.springframework.security.web.authentication.logout.LogoutFilter@698e96a1, com.ling.auth.MyUsernamePasswordAuthenticationFilter@1b47681, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f6a2393, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@172d4ab5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@141f2a85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b240e34, org.springframework.security.web.session.SessionManagementFilter@3a091fdd, org.springframework.security.web.access.ExceptionTranslationFilter@18c52acb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@339a532b]
+2021-04-17 17:37:13.342 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 17:37:13.414 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 17:37:13.599 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:37:13.628 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 17:37:13.629 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 17:37:13.642 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 17:37:13.674 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 17:37:13.690 [INFO ] com.ling.LingApplication - Started LingApplication in 5.936 seconds (JVM running for 6.659)
+2021-04-17 17:40:38.084 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 17:41:27.788 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 17:41:27.810 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 17:41:27.813 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-17 17:41:27.825 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-17 17:41:27.959 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 11772 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:41:27.960 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:41:28.413 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:41:28.413 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:41:28.433 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:41:28.437 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:41:28.438 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:41:28.442 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:41:28.442 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:41:28.443 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:41:28.534 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:41:28.534 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:41:28.534 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:41:28.535 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:41:28.535 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:41:28.535 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:41:28.535 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:41:28.535 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:41:28.556 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:41:28.556 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 592 ms
+2021-04-17 17:41:28.609 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:41:28.614 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-04-17 17:41:28.643 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-04-17 17:41:28.644 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:41:28.704 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-17 17:41:28.708 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-04-17 17:41:28.709 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-04-17 17:41:28.713 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-17 17:41:30.254 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 11772 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:41:30.254 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:41:30.547 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:41:30.547 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:41:30.564 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:41:30.567 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:41:30.567 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:41:30.571 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:41:30.571 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:41:30.571 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:41:30.662 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:41:30.663 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:41:30.663 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:41:30.663 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:41:30.663 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:41:30.664 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:41:30.664 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:41:30.664 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:41:30.693 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:41:30.693 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+2021-04-17 17:41:30.750 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:41:30.755 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-04-17 17:41:30.780 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-04-17 17:41:30.780 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:41:30.830 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-17 17:41:30.834 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-04-17 17:41:30.835 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-04-17 17:41:30.838 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-17 17:41:47.721 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 9044 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:41:47.723 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:41:47.786 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 17:41:47.786 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 17:41:48.619 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:41:48.620 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:41:48.694 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:41:48.714 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:41:48.715 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:41:48.728 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:41:48.729 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:41:48.729 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:41:49.305 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:41:49.314 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:41:49.315 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:41:49.316 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:41:49.318 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:41:49.318 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:41:49.318 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:41:49.321 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:41:49.397 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:41:49.397 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1610 ms
+2021-04-17 17:41:49.593 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:41:49.627 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 17:41:49.716 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 17:41:49.808 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 17:41:50.062 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 17:41:50.071 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:41:50.564 [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-17 17:41:50.572 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-17 17:41:50.583 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-17 17:41:50.590 [INFO ] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-17 17:42:15.672 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 16124 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:42:15.675 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:42:15.728 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 17:42:15.729 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 17:42:16.573 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:42:16.574 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:42:16.646 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:42:16.662 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:42:16.663 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:42:16.676 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:42:16.677 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:42:16.677 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:42:17.219 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:42:17.226 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:42:17.226 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:42:17.226 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:42:17.228 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:42:17.228 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:42:17.228 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:42:17.231 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:42:17.310 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:42:17.311 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1581 ms
+2021-04-17 17:42:17.493 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:42:17.528 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 17:42:17.615 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 17:42:17.705 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 17:42:17.955 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 17:42:17.965 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:42:18.525 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 17:42:18.532 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 17:42:19.071 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 17:42:19.356 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@244d8af7, org.springframework.security.web.context.SecurityContextPersistenceFilter@70a984c6, org.springframework.security.web.header.HeaderWriterFilter@3fbf4ca8, org.springframework.security.web.authentication.logout.LogoutFilter@5df6947f, com.ling.auth.MyUsernamePasswordAuthenticationFilter@7c1bf89b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2ed51569, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48c93389, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a6e55d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fb6bd6b, org.springframework.security.web.session.SessionManagementFilter@742a5908, org.springframework.security.web.access.ExceptionTranslationFilter@5466cff2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b14fdc7]
+2021-04-17 17:42:19.376 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 17:42:19.451 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 17:42:19.639 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:42:19.663 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 17:42:19.664 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 17:42:19.677 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 17:42:19.702 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 17:42:19.718 [INFO ] com.ling.LingApplication - Started LingApplication in 4.602 seconds (JVM running for 5.332)
+2021-04-17 17:42:24.437 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 17:43:00.909 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 11008 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:43:00.911 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:43:00.947 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 17:43:00.948 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 17:43:01.813 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:43:01.815 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:43:01.878 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:43:01.892 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:43:01.893 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:43:01.905 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:43:01.906 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:43:01.906 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:43:02.462 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:43:02.470 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:43:02.470 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:43:02.470 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:43:02.472 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:43:02.472 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:43:02.472 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:43:02.475 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:43:02.559 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:43:02.561 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1612 ms
+2021-04-17 17:43:02.754 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:43:02.797 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 17:43:02.896 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 17:43:02.986 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 17:43:03.250 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 17:43:03.259 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:43:03.814 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 17:43:03.821 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 17:43:04.364 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 17:43:04.663 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f532740, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f0f3ece, org.springframework.security.web.header.HeaderWriterFilter@25f97c9a, org.springframework.security.web.authentication.logout.LogoutFilter@77ec1e9c, com.ling.auth.MyUsernamePasswordAuthenticationFilter@2fc98c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cd2a6e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36df428f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16d10d7f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6089f8bc, org.springframework.security.web.session.SessionManagementFilter@ed675d8, org.springframework.security.web.access.ExceptionTranslationFilter@87087cf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@563fc162]
+2021-04-17 17:43:04.683 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 17:43:04.766 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 17:43:04.945 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:43:04.968 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 17:43:04.969 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 17:43:04.980 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 17:43:05.005 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 17:43:05.020 [INFO ] com.ling.LingApplication - Started LingApplication in 4.6 seconds (JVM running for 5.36)
+2021-04-17 17:43:08.067 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 17:59:50.898 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 18796 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 17:59:50.901 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 17:59:50.946 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 17:59:50.946 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 17:59:51.795 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:59:51.796 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 17:59:51.865 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2021-04-17 17:59:51.880 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 17:59:51.882 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 17:59:51.895 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:59:51.896 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 17:59:51.896 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 17:59:52.445 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 17:59:52.453 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:59:52.453 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 17:59:52.453 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 17:59:52.456 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 17:59:52.456 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 17:59:52.456 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 17:59:52.459 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 17:59:52.537 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 17:59:52.537 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1590 ms
+2021-04-17 17:59:52.713 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 17:59:52.750 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 17:59:52.843 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 17:59:52.928 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 17:59:53.243 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 17:59:53.253 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 17:59:53.893 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 17:59:53.900 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 17:59:54.459 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 17:59:54.748 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@575c65b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bb0133a, org.springframework.security.web.header.HeaderWriterFilter@728723, org.springframework.security.web.authentication.logout.LogoutFilter@4d3bad50, com.ling.auth.MyUsernamePasswordAuthenticationFilter@4aaef8c2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@60b12485, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4634bff4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@442de2fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@304edbfc, org.springframework.security.web.session.SessionManagementFilter@5a4b80b4, org.springframework.security.web.access.ExceptionTranslationFilter@4f06725b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b368615]
+2021-04-17 17:59:54.766 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 17:59:54.843 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 17:59:55.027 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 17:59:55.049 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 17:59:55.050 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 17:59:55.063 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 17:59:55.086 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 17:59:55.101 [INFO ] com.ling.LingApplication - Started LingApplication in 4.883 seconds (JVM running for 5.587)
+2021-04-17 18:01:41.174 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 16280 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 18:01:41.177 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 18:01:41.232 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 18:01:41.233 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 18:01:42.086 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 18:01:42.086 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 18:01:42.151 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2021-04-17 18:01:42.167 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 18:01:42.168 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 18:01:42.181 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 18:01:42.182 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 18:01:42.182 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-04-17 18:01:42.727 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 18:01:42.735 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 18:01:42.736 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 18:01:42.736 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 18:01:42.738 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 18:01:42.738 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 18:01:42.738 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 18:01:42.740 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 18:01:42.817 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 18:01:42.817 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1583 ms
+2021-04-17 18:01:42.998 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 18:01:43.033 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 18:01:43.119 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 18:01:43.210 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 18:01:43.493 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 18:01:43.505 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 18:01:44.203 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 18:01:44.212 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 18:01:44.746 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 18:01:45.024 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33b972e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@433e6256, org.springframework.security.web.header.HeaderWriterFilter@5e92f0b7, org.springframework.security.web.authentication.logout.LogoutFilter@83b0415, com.ling.auth.MyUsernamePasswordAuthenticationFilter@7858ce4c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ad25231, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eac96ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26ef902a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@544f37ab, org.springframework.security.web.session.SessionManagementFilter@f0ed3bb, org.springframework.security.web.access.ExceptionTranslationFilter@2fc81221, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56d40e96]
+2021-04-17 18:01:45.041 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 18:01:45.116 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 18:01:45.295 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 18:01:45.317 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 18:01:45.318 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 18:01:45.331 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 18:01:45.355 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 18:01:45.371 [INFO ] com.ling.LingApplication - Started LingApplication in 4.706 seconds (JVM running for 5.399)
+2021-04-17 18:04:20.027 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 8844 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 18:04:20.031 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 18:04:20.073 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 18:04:20.074 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 18:04:20.903 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 18:04:20.903 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 18:04:20.967 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2021-04-17 18:04:20.981 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 18:04:20.982 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 18:04:20.995 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 18:04:20.996 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 18:04:20.997 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 18:04:21.533 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 18:04:21.540 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 18:04:21.540 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 18:04:21.540 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 18:04:21.544 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 18:04:21.544 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 18:04:21.544 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 18:04:21.546 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 18:04:21.621 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 18:04:21.621 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1546 ms
+2021-04-17 18:04:21.790 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 18:04:21.825 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 18:04:21.910 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 18:04:21.996 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 18:04:22.265 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 18:04:22.274 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 18:04:22.820 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 18:04:22.828 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 18:04:23.393 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 18:04:23.669 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@703d6592, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a46a76, org.springframework.security.web.header.HeaderWriterFilter@1a01c2ca, org.springframework.security.web.authentication.logout.LogoutFilter@497fece6, com.ling.auth.MyUsernamePasswordAuthenticationFilter@11dedb64, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63dcb12e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e137056, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@adaea86, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11dc1eb3, org.springframework.security.web.session.SessionManagementFilter@60cff02, org.springframework.security.web.access.ExceptionTranslationFilter@784dafe9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@744a81db]
+2021-04-17 18:04:23.688 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 18:04:23.762 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 18:04:23.939 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 18:04:23.961 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 18:04:23.962 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 18:04:23.975 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 18:04:23.998 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 18:04:24.012 [INFO ] com.ling.LingApplication - Started LingApplication in 4.565 seconds (JVM running for 5.373)
+2021-04-17 19:54:32.480 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 20:19:37.529 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 1972 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 20:19:37.532 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 20:19:37.584 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 20:19:37.585 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 20:19:38.476 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 20:19:38.476 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 20:19:38.547 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2021-04-17 20:19:38.563 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 20:19:38.564 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 20:19:38.577 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 20:19:38.578 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 20:19:38.579 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 20:19:39.126 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 20:19:39.133 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 20:19:39.133 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 20:19:39.133 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 20:19:39.136 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 20:19:39.137 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 20:19:39.137 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 20:19:39.141 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 20:19:39.225 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 20:19:39.225 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1639 ms
+2021-04-17 20:19:39.403 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 20:19:39.436 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 20:19:39.542 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 20:19:39.632 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 20:19:39.932 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 20:19:39.944 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 20:19:40.545 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 20:19:40.552 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 20:19:41.068 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 20:19:41.368 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54291a15, org.springframework.security.web.context.SecurityContextPersistenceFilter@7dc87b81, org.springframework.security.web.header.HeaderWriterFilter@6eb51625, org.springframework.security.web.authentication.logout.LogoutFilter@5368148f, com.ling.auth.MyUsernamePasswordAuthenticationFilter@193e00e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a726411, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@374655aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72b92e79, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38375646, org.springframework.security.web.session.SessionManagementFilter@27b7f436, org.springframework.security.web.access.ExceptionTranslationFilter@287c76f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6948ee2]
+2021-04-17 20:19:41.390 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 20:19:41.476 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 20:19:41.681 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 20:19:41.708 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 20:19:41.709 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 20:19:41.725 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 20:19:41.751 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 20:19:41.769 [INFO ] com.ling.LingApplication - Started LingApplication in 4.87 seconds (JVM running for 5.604)
+2021-04-17 20:20:54.068 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 15748 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 20:20:54.071 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 20:20:54.134 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 20:20:54.135 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 20:20:55.048 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 20:20:55.048 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 20:20:55.115 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2021-04-17 20:20:55.132 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 20:20:55.133 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 20:20:55.147 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 20:20:55.148 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 20:20:55.149 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 20:20:55.715 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 20:20:55.723 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 20:20:55.723 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 20:20:55.723 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 20:20:55.726 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 20:20:55.726 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 20:20:55.726 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 20:20:55.728 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 20:20:55.808 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 20:20:55.808 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1672 ms
+2021-04-17 20:20:56.000 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 20:20:56.038 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 20:20:56.127 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 20:20:56.219 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 20:20:56.474 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 20:20:56.484 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 20:20:57.070 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 20:20:57.079 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 20:20:57.670 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 20:20:57.974 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@622ab084, org.springframework.security.web.context.SecurityContextPersistenceFilter@ae02cf5, org.springframework.security.web.header.HeaderWriterFilter@374655aa, org.springframework.security.web.authentication.logout.LogoutFilter@741b4d81, com.ling.auth.MyUsernamePasswordAuthenticationFilter@6c895601, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@83b0415, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67c61282, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62a28a2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33b972e5, org.springframework.security.web.session.SessionManagementFilter@60b89c97, org.springframework.security.web.access.ExceptionTranslationFilter@7dc87b81, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dbb1b0d]
+2021-04-17 20:20:57.992 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 20:20:58.070 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 20:20:58.252 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 20:20:58.274 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 20:20:58.276 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 20:20:58.288 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 20:20:58.320 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 20:20:58.345 [INFO ] com.ling.LingApplication - Started LingApplication in 4.85 seconds (JVM running for 5.548)
+2021-04-17 20:22:22.495 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 16816 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-04-17 20:22:22.499 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-04-17 20:22:22.544 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 20:22:22.545 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 20:22:23.393 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 20:22:23.394 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 20:22:23.470 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-04-17 20:22:23.488 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-17 20:22:23.490 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-17 20:22:23.502 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 20:22:23.503 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-04-17 20:22:23.504 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-04-17 20:22:24.071 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-04-17 20:22:24.079 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-04-17 20:22:24.080 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-17 20:22:24.080 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-17 20:22:24.081 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-04-17 20:22:24.082 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-17 20:22:24.082 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-17 20:22:24.085 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-04-17 20:22:24.159 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-17 20:22:24.160 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1614 ms
+2021-04-17 20:22:24.341 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 20:22:24.379 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-17 20:22:24.465 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 20:22:24.551 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-17 20:22:24.811 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-17 20:22:24.819 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-04-17 20:22:25.394 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 20:22:25.402 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 20:22:25.901 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-17 20:22:26.177 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@489d747e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7896db0e, org.springframework.security.web.header.HeaderWriterFilter@7fb2a16a, org.springframework.security.web.authentication.logout.LogoutFilter@5f736f4e, com.ling.auth.MyUsernamePasswordAuthenticationFilter@213b24d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6482583f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5809262c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@374655aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60f36c2d, org.springframework.security.web.session.SessionManagementFilter@1a0a0436, org.springframework.security.web.access.ExceptionTranslationFilter@1f612635, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f921722]
+2021-04-17 20:22:26.194 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 20:22:26.275 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 20:22:26.449 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-04-17 20:22:26.472 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 20:22:26.473 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-17 20:22:26.485 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-17 20:22:26.508 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-17 20:22:26.523 [INFO ] com.ling.LingApplication - Started LingApplication in 4.617 seconds (JVM running for 5.356)
+2021-04-17 20:22:28.656 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
