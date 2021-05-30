@@ -5,6 +5,8 @@ package com.ling.utils;/*
  * @ Time 15:26
  */
 
+import com.ling.pojo.Tag;
+import com.ling.vo.AddArticleVo;
 import com.ling.vo.ArticleVo;
 import com.ling.vo.TagVo;
 import com.ling.vo.user.UserArticleVo;
@@ -59,7 +61,7 @@ public class ArticleUtils {
     }
 
     /**
-     * 首页文章合并类,可之后优化
+     * 首页文章合并分页类,可之后优化
      * @param userArticleVoList
      * @return
      */
@@ -89,5 +91,21 @@ public class ArticleUtils {
         userAritcleListPage.setPage(current-1);
         userAritcleListPage.setPageSize(10);
         return userAritcleListPage;
+    }
+
+
+    /**
+     * 将bean中的tag合并变为标签列表
+     * @param article
+     * @param tagList
+     * @return
+     */
+    public AddArticleVo toTagList(AddArticleVo article, List<TagVo> tagList){
+        List<Integer> tagIdList=new ArrayList<>();
+        for (TagVo tag:tagList){
+            tagIdList.add(tag.getId());
+        }
+        article.setTagIdList(tagIdList);
+        return article;
     }
 }

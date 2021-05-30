@@ -1,0 +1,1 @@
+2021-05-28 18:59:12.438 [http-nio-8090-exec-8] ERROR com.ling.handler.exception.MyGlobalException - org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'articleId' is not present

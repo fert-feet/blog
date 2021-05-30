@@ -6,12 +6,12 @@ package com.ling.dao;/*
  */
 
 import com.ling.pojo.Tag;
-import com.ling.vo.CategoryVo;
 import com.ling.vo.TagVo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
@@ -29,4 +29,7 @@ public interface TagRepositry extends JpaRepository<Tag,Integer> {
 
     @Query(value = "select new com.ling.vo.TagVo(a.id,a.tagName)from Tag a")
     List<TagVo> findTags();
+
+    @Query(value = "select new com.ling.vo.TagVo(a.id)from Tag a inner join a.articles b where b.id= :articleId")
+    List<TagVo> findTagByArticleId(Integer articleId);
 }

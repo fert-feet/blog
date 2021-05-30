@@ -1,0 +1,961 @@
+2021-05-27 01:00:55.285 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 9336 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:00:55.290 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:00:55.352 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:00:55.353 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:00:56.397 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:00:56.397 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:00:56.497 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:00:56.513 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:00:56.514 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:00:56.530 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.530 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.531 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.532 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.533 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.533 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.534 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.534 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:00:56.535 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:00:57.051 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:00:57.058 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:00:57.059 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:00:57.059 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:00:57.061 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:00:57.061 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:00:57.061 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:00:57.064 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:00:57.148 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:00:57.148 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1794 ms
+2021-05-27 01:00:57.331 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:00:57.367 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:00:57.458 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:00:57.549 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:00:57.793 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:00:57.802 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:00:58.489 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:00:58.496 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:00:59.153 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:00:59.615 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14cc40f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@173e0457, org.springframework.security.web.header.HeaderWriterFilter@6d7b8b6a, org.springframework.security.web.authentication.logout.LogoutFilter@3ba161eb, com.ling.auth.MyUsernamePasswordAuthenticationFilter@2f101e92, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15cf7961, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2137c12c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4365590, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79ff69c6, org.springframework.security.web.session.SessionManagementFilter@1e6edc7e, org.springframework.security.web.access.ExceptionTranslationFilter@71c9b094, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f1b810c]
+2021-05-27 01:00:59.633 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:00:59.699 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:00:59.882 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:00:59.904 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:00:59.905 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:00:59.918 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:00:59.955 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:00:59.975 [INFO ] com.ling.LingApplication - Started LingApplication in 5.272 seconds (JVM running for 6.045)
+2021-05-27 01:01:05.822 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:05:02.379 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 1664 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:05:02.382 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:05:02.440 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:05:02.441 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:05:03.434 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:05:03.435 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:05:03.537 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:05:03.553 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:05:03.554 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:05:03.570 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.571 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.572 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.572 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.572 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.573 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.574 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.576 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:05:03.576 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:05:04.122 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:05:04.130 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:05:04.131 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:05:04.131 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:05:04.133 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:05:04.133 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:05:04.133 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:05:04.136 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:05:04.232 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:05:04.232 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1790 ms
+2021-05-27 01:05:04.449 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:05:04.484 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:05:04.576 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:05:04.658 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:05:04.912 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:05:04.921 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:05:05.575 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:05:05.582 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:05:06.190 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:05:06.619 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55303a48, org.springframework.security.web.context.SecurityContextPersistenceFilter@5df3f98c, org.springframework.security.web.header.HeaderWriterFilter@716e0670, org.springframework.security.web.authentication.logout.LogoutFilter@4f52f750, com.ling.auth.MyUsernamePasswordAuthenticationFilter@65a17e19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64f9563e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@725d769a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@362aa259, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cd464d, org.springframework.security.web.session.SessionManagementFilter@393b52d8, org.springframework.security.web.access.ExceptionTranslationFilter@70d61d78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a46495d]
+2021-05-27 01:05:06.638 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:05:06.708 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:05:06.890 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:05:06.911 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:05:06.912 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:05:06.925 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:05:06.947 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:05:06.962 [INFO ] com.ling.LingApplication - Started LingApplication in 5.233 seconds (JVM running for 6.023)
+2021-05-27 01:05:11.161 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:05:59.657 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 13504 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:05:59.662 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:05:59.720 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:05:59.720 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:06:00.598 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:06:00.599 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:06:00.697 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:06:00.716 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:06:00.717 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:06:00.732 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.733 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.734 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.734 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.735 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.735 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.736 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.737 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:06:00.738 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:06:01.277 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:06:01.284 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:06:01.285 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:06:01.285 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:06:01.286 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:06:01.286 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:06:01.287 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:06:01.289 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:06:01.370 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:06:01.371 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1649 ms
+2021-05-27 01:06:01.540 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:06:01.574 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:06:01.666 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:06:01.747 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:06:01.990 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:06:01.998 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:06:02.630 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:06:02.636 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:06:03.234 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:06:03.666 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14cc40f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@173e0457, org.springframework.security.web.header.HeaderWriterFilter@6d7b8b6a, org.springframework.security.web.authentication.logout.LogoutFilter@3ba161eb, com.ling.auth.MyUsernamePasswordAuthenticationFilter@7c5c15e9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15cf7961, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2137c12c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4365590, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79ff69c6, org.springframework.security.web.session.SessionManagementFilter@1e6edc7e, org.springframework.security.web.access.ExceptionTranslationFilter@71c9b094, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f1b810c]
+2021-05-27 01:06:03.688 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:06:03.753 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:06:03.937 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:06:03.961 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:06:03.962 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:06:03.973 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:06:03.996 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:06:04.011 [INFO ] com.ling.LingApplication - Started LingApplication in 4.955 seconds (JVM running for 5.74)
+2021-05-27 01:06:11.042 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:08:13.449 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 10512 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:08:13.452 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:08:13.526 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:08:13.526 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:08:14.443 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:08:14.443 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:08:14.539 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:08:14.554 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:08:14.556 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:08:14.572 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.573 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.574 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.575 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.575 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.576 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.577 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.578 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:08:14.579 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:08:15.128 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:08:15.135 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:08:15.135 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:08:15.136 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:08:15.137 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:08:15.137 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:08:15.137 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:08:15.140 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:08:15.222 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:08:15.223 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1696 ms
+2021-05-27 01:08:15.389 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:08:15.424 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:08:15.517 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:08:15.598 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:08:15.845 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:08:15.854 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:08:16.500 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:08:16.507 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:08:17.160 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:08:17.597 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b573ec4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4606dd15, org.springframework.security.web.header.HeaderWriterFilter@7a190daf, org.springframework.security.web.authentication.logout.LogoutFilter@52106c54, com.ling.auth.MyUsernamePasswordAuthenticationFilter@59ea2e4c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64bc3953, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3698854, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7818504a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f1b810c, org.springframework.security.web.session.SessionManagementFilter@30f81243, org.springframework.security.web.access.ExceptionTranslationFilter@75f0ccb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30756e01]
+2021-05-27 01:08:17.617 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:08:17.689 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:08:17.875 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:08:17.897 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:08:17.898 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:08:17.909 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:08:17.933 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:08:17.948 [INFO ] com.ling.LingApplication - Started LingApplication in 5.077 seconds (JVM running for 5.815)
+2021-05-27 01:08:27.636 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:09:00.348 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 6416 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:09:00.351 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:09:00.401 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:09:00.401 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:09:01.498 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:09:01.498 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:09:01.624 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:09:01.642 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:09:01.643 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:09:01.660 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.660 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.662 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.662 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.663 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.663 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.664 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.665 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:09:01.665 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:09:02.301 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:09:02.310 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:09:02.310 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:09:02.310 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:09:02.312 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:09:02.312 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:09:02.312 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:09:02.315 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:09:02.408 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:09:02.409 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2007 ms
+2021-05-27 01:09:02.628 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:09:02.667 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:09:02.795 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:09:02.886 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:09:03.197 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:09:03.209 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:09:03.943 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:09:03.952 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:09:04.726 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:09:05.314 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@564ed293, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dcbee74, org.springframework.security.web.header.HeaderWriterFilter@61c88e52, org.springframework.security.web.authentication.logout.LogoutFilter@7f0884f2, com.ling.auth.MyUsernamePasswordAuthenticationFilter@70f074e1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54163f5f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77c9ce59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70a31741, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@643c0e1a, org.springframework.security.web.session.SessionManagementFilter@4799506a, org.springframework.security.web.access.ExceptionTranslationFilter@21fde7b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b317c5f]
+2021-05-27 01:09:05.336 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:09:05.418 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:09:05.626 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:09:05.651 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:09:05.652 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:09:05.667 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:09:05.695 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:09:05.713 [INFO ] com.ling.LingApplication - Started LingApplication in 5.997 seconds (JVM running for 7.851)
+2021-05-27 01:09:07.414 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:09:36.738 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:09:36.868 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:09:36.872 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-05-27 01:09:36.889 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-05-27 01:10:18.073 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 14156 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:10:18.077 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:10:18.138 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:10:18.139 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:10:19.023 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:10:19.024 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:10:19.115 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:10:19.129 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:10:19.130 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:10:19.144 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.145 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.146 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.147 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.147 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.148 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.148 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.149 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:10:19.149 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:10:19.697 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:10:19.703 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:10:19.704 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:10:19.704 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:10:19.707 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:10:19.707 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:10:19.708 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:10:19.710 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:10:19.785 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:10:19.785 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1644 ms
+2021-05-27 01:10:19.947 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:10:19.981 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:10:20.081 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:10:20.161 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:10:20.411 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:10:20.420 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:10:21.050 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:10:21.057 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:10:21.692 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:10:22.132 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47b85b2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@8f5602a, org.springframework.security.web.header.HeaderWriterFilter@55fe50a4, org.springframework.security.web.authentication.logout.LogoutFilter@7e637ee, com.ling.auth.MyUsernamePasswordAuthenticationFilter@79f50991, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@488546fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3859ac35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29d3513a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f809c29, org.springframework.security.web.session.SessionManagementFilter@14851289, org.springframework.security.web.access.ExceptionTranslationFilter@26b060ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14e22974]
+2021-05-27 01:10:22.155 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:10:22.223 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:10:22.403 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:10:22.424 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:10:22.426 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:10:22.437 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:10:22.460 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:10:22.474 [INFO ] com.ling.LingApplication - Started LingApplication in 4.994 seconds (JVM running for 5.776)
+2021-05-27 01:10:29.486 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:11:01.788 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 15796 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:11:01.791 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:11:01.841 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:11:01.842 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:11:02.873 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:11:02.874 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:11:02.996 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:11:03.012 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:11:03.013 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:11:03.029 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.030 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.031 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.032 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.033 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.033 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.034 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.035 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:03.035 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:11:03.709 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:11:03.721 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:11:03.721 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:11:03.721 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:11:03.723 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:11:03.724 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:11:03.724 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:11:03.727 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:11:03.836 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:11:03.836 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1993 ms
+2021-05-27 01:11:04.062 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:11:04.109 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:11:04.245 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:11:04.333 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:11:04.735 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:11:04.746 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:11:05.497 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:11:05.507 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:11:06.296 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:11:06.810 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31409ac4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1dc5bb2f, org.springframework.security.web.header.HeaderWriterFilter@3e033b08, org.springframework.security.web.authentication.logout.LogoutFilter@4562b820, com.ling.auth.MyUsernamePasswordAuthenticationFilter@11bb721d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@492f3454, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ec7e068, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@331b996d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64767fb5, org.springframework.security.web.session.SessionManagementFilter@3972c30f, org.springframework.security.web.access.ExceptionTranslationFilter@331fc564, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@be3eaf9]
+2021-05-27 01:11:06.829 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:11:06.914 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:11:07.137 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:11:07.162 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:11:07.163 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:11:07.177 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:11:07.202 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:11:07.222 [INFO ] com.ling.LingApplication - Started LingApplication in 6.134 seconds (JVM running for 7.078)
+2021-05-27 01:11:33.274 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:11:45.216 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:11:45.351 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:11:45.354 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-05-27 01:11:45.363 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-05-27 01:11:50.004 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 11740 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:11:50.007 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:11:50.065 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:11:50.066 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:11:50.953 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:11:50.953 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:11:51.052 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:11:51.069 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:11:51.070 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:11:51.086 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.087 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.088 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.088 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.089 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.090 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.091 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.092 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:11:51.092 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:11:51.692 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:11:51.699 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:11:51.699 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:11:51.700 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:11:51.701 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:11:51.701 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:11:51.701 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:11:51.704 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:11:51.785 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:11:51.785 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1718 ms
+2021-05-27 01:11:51.953 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:11:51.987 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:11:52.082 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:11:52.158 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:11:52.403 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:11:52.413 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:11:53.083 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:11:53.090 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:11:53.735 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:11:54.180 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30f82e4d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e6edc7e, org.springframework.security.web.header.HeaderWriterFilter@71c9b094, org.springframework.security.web.authentication.logout.LogoutFilter@207c80f9, com.ling.auth.MyUsernamePasswordAuthenticationFilter@30399aff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28b9f6f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173e0457, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7335184f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6217453d, org.springframework.security.web.session.SessionManagementFilter@6d7b8b6a, org.springframework.security.web.access.ExceptionTranslationFilter@73f3f663, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4791d4a8]
+2021-05-27 01:11:54.202 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:11:54.271 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:11:54.447 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:11:54.469 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:11:54.470 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:11:54.482 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:11:54.504 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:11:54.519 [INFO ] com.ling.LingApplication - Started LingApplication in 5.152 seconds (JVM running for 5.967)
+2021-05-27 01:12:01.926 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:12:29.271 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 2772 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:12:29.274 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:12:29.320 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:12:29.320 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:12:30.304 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:12:30.308 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:12:30.428 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:12:30.443 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:12:30.444 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:12:30.460 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.461 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.462 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.462 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.463 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.464 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.464 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.465 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:12:30.466 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:12:31.089 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:12:31.096 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:12:31.097 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:12:31.097 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:12:31.099 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:12:31.099 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:12:31.099 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:12:31.102 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:12:31.183 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:12:31.183 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1862 ms
+2021-05-27 01:12:31.399 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:12:31.438 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:12:31.566 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:12:31.653 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:12:31.956 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:12:31.967 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:12:32.705 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:12:32.715 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:12:33.523 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:12:34.051 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bd5984a, org.springframework.security.web.context.SecurityContextPersistenceFilter@39c0f1d4, org.springframework.security.web.header.HeaderWriterFilter@4562b820, org.springframework.security.web.authentication.logout.LogoutFilter@4304e9bd, com.ling.auth.MyUsernamePasswordAuthenticationFilter@41fe6969, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@769173c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34772c85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bf3b98c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1504088c, org.springframework.security.web.session.SessionManagementFilter@5e5c6d73, org.springframework.security.web.access.ExceptionTranslationFilter@1fc104b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7943da9a]
+2021-05-27 01:12:34.071 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:12:34.148 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:12:34.358 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:12:34.386 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:12:34.387 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:12:34.423 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:12:34.454 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:12:34.470 [INFO ] com.ling.LingApplication - Started LingApplication in 5.92 seconds (JVM running for 6.922)
+2021-05-27 01:12:47.453 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:13:18.025 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:13:18.152 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:13:18.155 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-05-27 01:13:18.167 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-05-27 01:14:25.936 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 748 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:14:25.940 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:14:25.992 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:14:25.993 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:14:26.872 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:14:26.872 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:14:26.969 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:14:26.984 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:14:26.985 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:14:27.001 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.002 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.002 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.003 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.003 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.004 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.004 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.005 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:14:27.005 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:14:27.535 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:14:27.542 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:14:27.542 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:14:27.542 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:14:27.544 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:14:27.544 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:14:27.544 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:14:27.546 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:14:27.629 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:14:27.629 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1634 ms
+2021-05-27 01:14:27.805 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:14:27.843 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:14:27.938 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:14:28.024 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:14:28.272 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:14:28.280 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:14:28.896 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:14:28.902 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:14:29.529 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:14:29.972 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@254f034c, org.springframework.security.web.context.SecurityContextPersistenceFilter@71c9b094, org.springframework.security.web.header.HeaderWriterFilter@7440d247, org.springframework.security.web.authentication.logout.LogoutFilter@5bd3e25d, com.ling.auth.MyUsernamePasswordAuthenticationFilter@30399aff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@af047bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d7b8b6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a802a7a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@377ca83f, org.springframework.security.web.session.SessionManagementFilter@73f3f663, org.springframework.security.web.access.ExceptionTranslationFilter@431ecbd5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@107299bf]
+2021-05-27 01:14:29.998 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:14:30.069 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:14:30.253 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:14:30.276 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:14:30.277 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:14:30.289 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:14:30.313 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:14:30.330 [INFO ] com.ling.LingApplication - Started LingApplication in 4.995 seconds (JVM running for 5.794)
+2021-05-27 01:14:35.974 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:17:00.580 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 10264 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:17:00.583 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:17:00.642 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:17:00.643 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:17:01.535 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:17:01.535 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:17:01.632 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:17:01.647 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:17:01.648 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:17:01.663 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.664 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.665 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.665 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.666 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.666 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.667 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.668 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:01.668 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:17:02.202 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:17:02.210 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:17:02.210 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:17:02.210 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:17:02.212 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:17:02.212 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:17:02.212 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:17:02.214 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:17:02.293 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:17:02.294 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1650 ms
+2021-05-27 01:17:02.465 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:17:02.502 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:17:02.609 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:17:02.690 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:17:02.932 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:17:02.942 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:17:03.357 [INFO ] org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.ling.pojo.About (class must be instantiated by Interceptor)
+2021-05-27 01:17:03.551 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:17:03.558 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:17:04.164 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:17:04.609 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48721d5e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7335184f, org.springframework.security.web.header.HeaderWriterFilter@5a802a7a, org.springframework.security.web.authentication.logout.LogoutFilter@2d1e5d15, com.ling.auth.MyUsernamePasswordAuthenticationFilter@40182b50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@154a5db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4365590, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@207c80f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14d8eac9, org.springframework.security.web.session.SessionManagementFilter@603e5639, org.springframework.security.web.access.ExceptionTranslationFilter@1fe3ffa2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@884baf2]
+2021-05-27 01:17:04.634 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:17:04.711 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:17:04.907 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:17:04.931 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:17:04.932 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:17:04.945 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:17:04.969 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:17:04.987 [INFO ] com.ling.LingApplication - Started LingApplication in 5.024 seconds (JVM running for 5.814)
+2021-05-27 01:17:11.554 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-27 01:17:16.983 [INFO ] org.hibernate.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.InstantiationException: No default constructor for entity:  : com.ling.pojo.About
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85)
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:705)
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5203)
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1598)
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1582)
+	at org.hibernate.loader.Loader.instanceNotYetLoaded(Loader.java:1761)
+	at org.hibernate.loader.Loader.getRow(Loader.java:1622)
+	at org.hibernate.loader.Loader.getRowFromResultSet(Loader.java:740)
+	at org.hibernate.loader.Loader.getRowsFromResultSet(Loader.java:1039)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:990)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:959)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:319)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2421)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:77)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:61)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4436)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4426)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:104)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1186)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1175)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:193)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2786)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2723)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:988)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy107.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy107.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy123.save(Unknown Source)
+	at com.ling.serviceimpl.AboutServiceImpl.updateAbout(AboutServiceImpl.java:32)
+	at com.ling.serviceimpl.AboutServiceImpl$$FastClassBySpringCGLIB$$4fbff50c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.ling.serviceimpl.AboutServiceImpl$$EnhancerBySpringCGLIB$$a2891021.updateAbout(<generated>)
+	at com.ling.controller.admin.AboutController.updateAbout(AboutController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-05-27 01:17:24.056 [INFO ] org.hibernate.event.internal.DefaultLoadEventListener - HHH000327: Error performing load command
+org.hibernate.InstantiationException: No default constructor for entity:  : com.ling.pojo.About
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85)
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:705)
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5203)
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1598)
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1582)
+	at org.hibernate.loader.Loader.instanceNotYetLoaded(Loader.java:1761)
+	at org.hibernate.loader.Loader.getRow(Loader.java:1622)
+	at org.hibernate.loader.Loader.getRowFromResultSet(Loader.java:740)
+	at org.hibernate.loader.Loader.getRowsFromResultSet(Loader.java:1039)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:990)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:959)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:319)
+	at org.hibernate.loader.Loader.loadEntity(Loader.java:2421)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:77)
+	at org.hibernate.loader.entity.AbstractEntityLoader.load(AbstractEntityLoader.java:61)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4436)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4426)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:569)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:537)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:332)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:104)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1186)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1175)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:193)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2786)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2723)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2767)
+	at org.hibernate.internal.SessionImpl.get(SessionImpl.java:988)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:306)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:93)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy107.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy107.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy123.save(Unknown Source)
+	at com.ling.serviceimpl.AboutServiceImpl.updateAbout(AboutServiceImpl.java:32)
+	at com.ling.serviceimpl.AboutServiceImpl$$FastClassBySpringCGLIB$$4fbff50c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.ling.serviceimpl.AboutServiceImpl$$EnhancerBySpringCGLIB$$a2891021.updateAbout(<generated>)
+	at com.ling.controller.admin.AboutController.updateAbout(AboutController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-05-27 01:17:49.760 [INFO ] com.ling.LingApplication - Starting LingApplication using Java 14.0.1 on DESKTOP-RMQ6CGU with PID 2276 (D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog\target\classes started by FEET in D:\Application\project\JAVA_PROJECT\separate\background\jpa_blog)
+2021-05-27 01:17:49.764 [INFO ] com.ling.LingApplication - No active profile set, falling back to default profiles: default
+2021-05-27 01:17:49.829 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-27 01:17:49.829 [INFO ] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-27 01:17:50.740 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:17:50.741 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-27 01:17:50.845 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 8 JPA repository interfaces.
+2021-05-27 01:17:50.861 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-27 01:17:50.862 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-27 01:17:50.877 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.AboutRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.877 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ApiRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.878 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.ArticleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.879 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.CategoryRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.879 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.MenuRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.880 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.RoleRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.880 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.TagRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.881 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ling.dao.UserRepositry. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-05-27 01:17:50.882 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-05-27 01:17:51.416 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-05-27 01:17:51.423 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:17:51.423 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-27 01:17:51.423 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-05-27 01:17:51.424 [INFO ] org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-05-27 01:17:51.425 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-27 01:17:51.425 [INFO ] org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-27 01:17:51.428 [INFO ] org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-05-27 01:17:51.508 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-27 01:17:51.508 [INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1677 ms
+2021-05-27 01:17:51.680 [INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-27 01:17:51.716 [INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-05-27 01:17:51.813 [INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-27 01:17:51.885 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-27 01:17:52.135 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-27 01:17:52.143 [INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-05-27 01:17:52.757 [INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-27 01:17:52.764 [INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-27 01:17:53.368 [INFO ] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-27 01:17:53.808 [INFO ] org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48721d5e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7335184f, org.springframework.security.web.header.HeaderWriterFilter@5a802a7a, org.springframework.security.web.authentication.logout.LogoutFilter@2d1e5d15, com.ling.auth.MyUsernamePasswordAuthenticationFilter@319061d2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@154a5db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4365590, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@207c80f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14d8eac9, org.springframework.security.web.session.SessionManagementFilter@603e5639, org.springframework.security.web.access.ExceptionTranslationFilter@1fe3ffa2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@884baf2]
+2021-05-27 01:17:53.831 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-27 01:17:53.897 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-27 01:17:54.075 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-05-27 01:17:54.098 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2021-05-27 01:17:54.099 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-27 01:17:54.111 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-05-27 01:17:54.135 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-27 01:17:54.150 [INFO ] com.ling.LingApplication - Started LingApplication in 5.013 seconds (JVM running for 5.74)
+2021-05-27 01:17:59.153 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

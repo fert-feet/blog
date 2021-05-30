@@ -6,6 +6,7 @@ package com.ling.dao;/*
  */
 
 import com.ling.pojo.Article;
+import com.ling.vo.AddArticleVo;
 import com.ling.vo.ArticleVo;
 import com.ling.vo.user.ArchiveVo;
 import com.ling.vo.user.UserArticleVo;
@@ -33,6 +34,10 @@ public interface ArticleRepositry extends JpaRepository<Article,Integer> {
 
     @Query(value = "select new com.ling.vo.user.UserArticleVo(a.id,a.articleTitle,a.articleContent,a.articleCover,a.isTop,a.createTime,b.id,b.categoryName,c.id,c.tagName) from Article a inner join a.category b inner join a.tags c where b.id= :categoryId")
     List<UserArticleVo> findArticleByCategory(@Param("categoryId") Integer categoryId);
+
     @Query(value = "select new com.ling.vo.user.UserArticleVo(a.id,a.articleTitle,a.articleContent,a.articleCover,a.isTop,a.createTime,b.id,b.categoryName,c.id,c.tagName) from Article a inner join a.category b inner join a.tags c where c.id= :tagId")
     List<UserArticleVo> findArticleByTag(@Param("tagId") Integer tagId);
+
+    @Query(value = "select new com.ling.vo.AddArticleVo(a.id,b.id,a.articleTitle,a.articleContent,a.articleCover,a.isDraft) from Article a inner join a.category b where a.id= :articleId")
+    AddArticleVo findAddArticleVo(@Param("articleId") Integer articleId);
 }

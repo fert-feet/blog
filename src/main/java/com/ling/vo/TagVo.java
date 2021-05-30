@@ -18,4 +18,8 @@ public class TagVo implements Serializable {
         this.id = id;
         this.tagName = tagName;
     }
+
+    public TagVo(Integer id) {
+        this.id = id;
+    }
 }

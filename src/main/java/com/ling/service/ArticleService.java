@@ -6,6 +6,7 @@ package com.ling.service;/*
  */
 
 import com.ling.pojo.Article;
+import com.ling.vo.AddArticleVo;
 import com.ling.vo.ArticleVo;
 import com.ling.vo.SaveOrUpdateArticleVO;
 import com.ling.vo.user.ArchiveVo;
@@ -64,5 +65,11 @@ public interface ArticleService {
      */
     Page<ArchiveVo> getArchive(Integer current);
 
+    /**
+     * 查询文章数量
+     * @return
+     */
     Long getArticleCount();
+
+    AddArticleVo getAddArticleInfo(Integer id);
 }

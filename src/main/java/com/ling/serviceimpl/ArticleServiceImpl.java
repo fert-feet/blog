@@ -13,8 +13,10 @@ import com.ling.pojo.Category;
 import com.ling.pojo.Tag;
 import com.ling.service.ArticleService;
 import com.ling.utils.ArticleUtils;
+import com.ling.vo.AddArticleVo;
 import com.ling.vo.ArticleVo;
 import com.ling.vo.SaveOrUpdateArticleVO;
+import com.ling.vo.TagVo;
 import com.ling.vo.user.ArchiveVo;
 import com.ling.vo.user.UserArticleVo;
 import org.springframework.beans.BeanUtils;
@@ -27,6 +29,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.util.TagUtils;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -45,6 +48,9 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Autowired
     private CategoryRepositry categoryRepositry;
+
+    @Autowired
+    private ArticleUtils articleUtils;
 
     @Override
     public PagedListHolder<ArticleVo> listArticle(Integer current, Integer size, String title) {
@@ -99,7 +105,7 @@ public class ArticleServiceImpl implements ArticleService {
             tags.add(tag);
         }
         Category category = categoryRepositry.findById(categoryId).orElse(null);
-        if(articleId!=null){
+        if(articleId!=null&&!"".equals(articleId)){
             Article article = articleRepositry.findById(articleId).orElse(null);
             BeanUtils.copyProperties(saveArticleVo,article);
             article.getTags().clear();
@@ -135,6 +141,13 @@ public class ArticleServiceImpl implements ArticleService {
     @Override
     public Long getArticleCount() {
         return articleRepositry.count();
+    }
+
+    @Override
+    public AddArticleVo getAddArticleInfo(Integer id) {
+        AddArticleVo addArticleVo = articleRepositry.findAddArticleVo(id);
+        List<TagVo> tagList = tagRepositry.findTagByArticleId(id);
+        return articleUtils.toTagList(addArticleVo,tagList);
     }
 
 

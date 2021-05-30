@@ -8,6 +8,7 @@ package com.ling.controller.admin;/*
 import com.ling.common.Result;
 import com.ling.pojo.Article;
 import com.ling.service.ArticleService;
+import com.ling.vo.AddArticleVo;
 import com.ling.vo.ArticleVo;
 import com.ling.vo.SaveOrUpdateArticleVO;
 import io.swagger.annotations.Api;
@@ -41,7 +42,7 @@ public class ArticleController {
     @ApiOperation(value = "根据Id查找文章")
     @GetMapping("/getArticleById")
     public Result getArticleById(@RequestParam(value = "articleId") Integer id){
-        Article article=articleService.getArticleById(id);
+        AddArticleVo article=articleService.getAddArticleInfo(id);
         return Result.ok().data("data",article);
     }
 

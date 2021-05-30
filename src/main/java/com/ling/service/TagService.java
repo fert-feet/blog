@@ -54,6 +54,12 @@ public interface TagService {
      */
     void updateById(TagVo tagVo);
 
+    /**
+     * 根据标签id查找文章
+     * @param tagId
+     * @param current
+     * @return
+     */
     PagedListHolder<TagVo> listArticleVoByTagId(Integer tagId, Integer current);
 
 }
